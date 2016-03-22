@@ -1,0 +1,311 @@
+.grid-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div[class*="col-"] {
+  float: left;
+  min-height: 1px;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbarTablet {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+#navbar {
+  border-bottom: 2px solid black;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  float: right;
+  vertical-align: middle;
+}
+
+#navbar ul li {
+  display: inline;
+  margin: 10px 10px;
+  border: 1px solid black;
+}
+
+#navbar img {
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  vertical-align: middle;
+}
+
+#logo {
+  text-align: center;
+  max-height: 125px;
+  margin-top: 0;
+}
+
+#logo img {
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  vertical-align: middle;
+}
+
+#slider {
+  border-bottom: 2px solid black;
+  margin-top: 60px;
+}
+
+#news {
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+}
+
+#aktualnosci {
+  border: 1px dotted black;
+  box-sizing: border-box;
+}
+
+#aktualnosci p {
+  margin: 5px 10px;
+}
+
+#about {
+  background-color: gray;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+#personData {
+  border: 1px dotted black;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#personData img {
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+#about_short {
+  min-height: 250px;
+  overflow-x: hidden;
+  border: 1px dotted black;
+  box-sizing: border-box;
+}
+
+#about_short img {
+  display: inline;
+  float: left;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+#about_short p {
+  margin: 0px 10px;
+}
+
+#about_short a {
+  float: right;
+}
+
+#id1 {
+  background-color: blue;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+
+#id1 img {
+  float: left;
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  margin: 5px;
+}
+
+#id1 a {
+  float: right;
+}
+
+#id2 {
+  background-color: gray;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+
+#id2 img {
+  float: left;
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  margin: 5px;
+}
+
+#id2 a {
+  float: right;
+}
+
+#id3 {
+  background-color: orange;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+
+#id3 img {
+  float: left;
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  margin: 5px;
+}
+
+#id3 a {
+  float: right;
+}
+
+#id4 {
+  background-color: gray;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+
+#id4 img {
+  float: left;
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  margin: 5px;
+}
+
+#id4 a {
+  float: right;
+}
+
+#galeria {
+  background-color: green;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+
+#galeria #bx-pager {
+  text-align: center;
+}
+
+#kontakt {
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+#formularz {
+  border-left: 1px dotted black;
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+  font-family: Helvetica;
+}
+
+input[type=text] {
+  border: 1px solid #737778;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#contact-message {
+  border: 1px solid #737778;
+  margin-top: 5px;
+  font-family: Helvetica;
+}
+
+input[type=submit] {
+  border: 1px solid #737778;
+  background-color: #737778;
+  color: white;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+#footer {
+  background-color: gray;
+  margin-top: 10px;
+  text-align: center;
+}

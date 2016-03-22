@@ -1,0 +1,40 @@
+#kontakt {
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+#daneKontaktowe {
+  // border-right: 1px dotted black;
+  // box-sizing: border-box;
+}
+
+#formularz {
+  border-left: 1px dotted black;
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+  font-family: Helvetica;
+}
+
+input[type=text] {
+   border: 1px solid #737778;
+   margin-top: 5px;
+   padding: 5px;
+
+}
+#contact-message {
+   border: 1px solid #737778;
+   margin-top: 5px;
+   font-family: Helvetica;
+}
+input[type=submit] {
+   border: 1px solid #737778;
+   background-color: #737778;
+   color: white;
+   font-weight: bold;
+   padding: 5px 15px;
+
+}

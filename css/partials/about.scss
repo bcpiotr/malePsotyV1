@@ -1,0 +1,47 @@
+#about {
+  background-color: gray;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+#personData {
+  border: 1px dotted black;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+  #personData img {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+
+
+#about_short {
+  min-height: 250px;
+  overflow-x: hidden;
+  border: 1px dotted black;
+  box-sizing: border-box;
+}
+
+#about_short img {
+  display: inline;
+  float: left;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+#about_short p {
+  margin: 0px 10px;
+}
+
+
+#about_short a {
+  float: right;
+}

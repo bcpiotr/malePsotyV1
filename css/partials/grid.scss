@@ -1,0 +1,35 @@
+.grid-container {
+  width: 100%;
+  max-width: 1000px;
+  // margin-top: 15px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div[class*="col-"]{
+  float : left;
+  min-height : 1px;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbarTablet {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+@for $i from 1 through 12 {
+.col-#{$i} { width: 100%/12 * $i; }
+}
